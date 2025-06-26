@@ -1,0 +1,23 @@
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.form-group label {
+  font-weight: 500;
+}
+
+.btn-primary {
+  width: 100%;
+}
