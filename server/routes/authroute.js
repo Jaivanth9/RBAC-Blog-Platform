@@ -26,7 +26,7 @@ router.post('/admin-only', requireLogin, checkRole('admin'), (req, res) => {
 });
 
 router.post("/signup", (req, res) => {
-    console.log("📨 Signup Request received:", req.body); // Add this line
+    console.log("📨 Signup Request received:", req.body); 
 const {name,email,password} = req.body 
     if(!email || !password || !name){
        return res.status(422).json({error:"please add all the fields"}) 

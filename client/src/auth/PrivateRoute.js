@@ -1,4 +1,3 @@
-// src/auth/PrivateRoute.js
 import React, { useContext } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 import { AuthContext } from '../contexts/AuthContext';
@@ -12,9 +11,6 @@ const PrivateRoute = ({ allowedRoles }) => {
   console.log("🔐 Auth state:", state);
 console.log("👤 User:", user);
 console.log("🔐 Required roles:", allowedRoles);
-
-
-  // If roles are specified, check if user role is allowed
 
 if (!allowedRoles.includes(user.role)) {
   return <Navigate to="/" />;

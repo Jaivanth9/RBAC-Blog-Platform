@@ -37,7 +37,7 @@ const Signin = () => {
   type: "LOGIN",
   payload: {
     token: data.token,
-    ...data.user, // flatten the user fields (id, name, email, role)
+    ...data.user, 
   },
 });
 

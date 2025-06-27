@@ -3,7 +3,6 @@
     background-color: hsl(0, 0%, 92%);
   }
   
-   /* Step 1 */
   .wrapper {
     width: 100%;
     display: flex;
@@ -11,7 +10,6 @@
   .main-content {
     width: 100%;
     margin-left: 0px;
-     /* transform: translateX(200px); */
   }
   #sidebar {
     width: 200px;
@@ -32,9 +30,6 @@
     color: #2f80cb;
     font-size: 1.3em;
   }
-   /* Step 1 */
-  
-   /* Step 2 */
   #sidebar.active {
     margin-left: 0px;
   }
@@ -58,8 +53,6 @@
       margin-left: 250px;
     }
   }
-   /* Step 2
-    the power of kepepet */
   i {
     margin-right: 10px;
   }
