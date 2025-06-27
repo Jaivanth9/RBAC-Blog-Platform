@@ -2,10 +2,9 @@
 
 A full-stack blog platform with **Role-Based Access Control (RBAC)** built using React, Node.js, Express, and MongoDB. It supports `admin` and `user` roles with separate dashboards, JWT-based authentication, protected routes, and post management.
 
----
 
 ## 🔧 Tech Stack
-
+---
 ### 🔹 Frontend
 - React 18
 - React Router DOM
@@ -20,9 +19,9 @@ A full-stack blog platform with **Role-Based Access Control (RBAC)** built using
 - JSON Web Tokens (JWT)
 - CORS, dotenv, body-parser
 
----
 
 ## ✅ Features
+---
 
 ### 🧑‍💼 Authentication & Authorization
 - Signup/Login for users
@@ -43,9 +42,9 @@ A full-stack blog platform with **Role-Based Access Control (RBAC)** built using
 - Manage all blog posts
 - Admin-only access
 
----
 
 ## 🗃️ Project Structure
+---
 
 ### Frontend (`/client`)
 src/
@@ -74,9 +73,10 @@ src/
 └── utils/
 └── api.js
 
----
 
 ### Backend (`/server`)
+---
+
 server/
 ├── server.js
 ├── config/
@@ -92,14 +92,9 @@ server/
 │ └── authcontroller.js
 └── .env
 
-yaml
-Copy
-Edit
-
----
 
 ## 🛠️ Setup Instructions
-
+---
 ### 1. Clone the Repository
 git clone https://github.com/Jaivanth9/RBAC-Blog-Platform.git
 cd rbac-blog-platform
@@ -136,8 +131,9 @@ AdminRoute: Allows access only if logged in and role === 'admin'.
 PrivateRoute: Allows access only if logged in (user or admin).
 
 PublicRoute: Redirects authenticated users away from signin/signup.
----
+
 📌 Todos
+---
  Signup/Login
 
  Auth Context with JWT
@@ -151,8 +147,9 @@ PublicRoute: Redirects authenticated users away from signin/signup.
  Edit/Delete post
 
  Email verification
----
+ 
 ✨ Author
+---
 Jaivanth Koppula
 Feel free to fork, customize, or extend this platform as needed.
 
